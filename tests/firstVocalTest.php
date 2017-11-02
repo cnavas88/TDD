@@ -31,7 +31,7 @@ class firstVocalTest extends TestCase
     public function testNotVocalInWord()
     {
         $word = new Word('tstng');
-        $this->assertSame(false, $word->getFirstVocal());
+        $this->assertSame(null, $word->getFirstVocal());
     }
 
     public function testGetFirstVocalInWord()

@@ -24,6 +24,6 @@ class Word
             }
         }
 
-        return false;
+        return null;
     }
 }
